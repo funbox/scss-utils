@@ -1,0 +1,9 @@
+{
+  "name": "@funboxteam/scss-utils",
+  "version": "1.0.0",
+  "description": "A small SCSS helpers library",
+  "keywords": [
+    "scss",
+    "utils"
+  ]
+}
