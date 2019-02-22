@@ -1,0 +1,7 @@
+@mixin multiline-text-cut($lines) {
+  display: -webkit-box;  // stylelint-disable-line value-no-vendor-prefix
+  overflow: hidden;
+  -webkit-line-clamp: $lines;  // stylelint-disable-line property-no-vendor-prefix
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;  // stylelint-disable-line property-no-vendor-prefix
+}
