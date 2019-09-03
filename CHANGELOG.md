@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 (03.09.2019)
+
+- Add usage and installation information to README
+
 ## 1.1.0 (22.02.2019)
 
 - Add `multiline-text-cut` mixin
