@@ -1,0 +1,7 @@
+@function get-unicode-string($character-code) {
+  @if function-exists('selector-append') {
+    @return unquote('\"\\#{$character-code}\"');
+  }
+
+  @return str-slice('\x', 1, 1) + $character-code;
+}
