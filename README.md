@@ -8,7 +8,8 @@ This is a set of SCSS mixins we use widely in our projects.
 - **placeholder** — vendor-prefixed pseudo-elements for a placeholder of a text field;
 - **text-cut** — single-line text cut with ellipsis;
 - **multiline-text-cut** — multi-line text cut with ellipsis;
-- **visually-hidden** — hide an element visually, still allowing assistive technologies to access it.
+- **visually-hidden** — hide an element visually, still allowing assistive technologies to access it;
+- **get-unicode-string** - a function to get Unicode sequence. It is applied as a workaround when a value of a `content` property automatically converts to an unreadable Unicode symbol. The solution comes from the comment to a [GitHub issue](https://github.com/sass/sass/issues/659#issuecomment-64819075).
 
 ## Installation
 
@@ -58,5 +59,17 @@ Most of our projects use `scss-imports-loader` with a configuration file located
 ```
 .button__text {
   @include visually-hidden;
+}
+```
+
+## Examples
+
+Example of **get-unicode-string** usage:
+
+```
+.list__item {
+  &::before {
+    content: get-unicode-string('2022'); // Browser will display the symbol «•»
+  }
 }
 ```
