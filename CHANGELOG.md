@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 (02.02.2020)
+
+- Add the function `get-unicode-string`
+
 ## 1.1.1 (03.09.2019)
 
 - Add usage and installation information to README
