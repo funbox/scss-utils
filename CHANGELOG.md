@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1 (17.09.2021)
+
+- Update link to the `scss-imports-loader` repository
+
 ## 1.2.0 (02.02.2020)
 
 - Add the function `get-unicode-string`
