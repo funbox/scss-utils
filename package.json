@@ -5,5 +5,11 @@
   "keywords": [
     "scss",
     "utils"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funbox/scss-utils"
+  },
+  "author": "FunBox LLC <wanted@fun-box.ru> (https://funbox.ru)",
+  "license": "Apache-2.0"
 }
