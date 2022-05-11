@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.0 (11.05.2022)
+
+Published the package on Github and added a LICENSE file.
+
+
 ## 1.2.1 (17.09.2021)
 
 - Update link to the `scss-imports-loader` repository
